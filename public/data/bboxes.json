@@ -1,0 +1,1080 @@
+{
+  "_note": "Presentation geometry only — nothing here feeds a statistic. Region/province boxes are GeoNames point extents; city boxes are HOTOSM footprints (ODbL) or point-buffer fallbacks.",
+  "cities": [
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 18.2941,
+      "max_lon": 42.6143,
+      "min_lat": 18.1773,
+      "min_lon": 42.4074,
+      "name": "Abha",
+      "name_ar": "أبها"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.5377,
+      "max_lon": 39.6957,
+      "min_lat": 24.3697,
+      "min_lon": 39.453,
+      "name": "Abyar Ali",
+      "name_ar": "آبار علي"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 24.05,
+      "max_lon": 49.8,
+      "min_lat": 23.95,
+      "min_lon": 49.7,
+      "name": "Al Ahsa",
+      "name_ar": "المنطقة الشرقية"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 18.7803,
+      "max_lon": 41.3982,
+      "min_lat": 18.6619,
+      "min_lon": 41.2982,
+      "name": "Al Baydayn",
+      "name_ar": "البيدين"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.993,
+      "max_lon": 39.5506,
+      "min_lat": 21.8421,
+      "min_lon": 39.4286,
+      "name": "Al Harrah",
+      "name_ar": "الحرة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.3671,
+      "max_lon": 50.2083,
+      "min_lat": 26.2671,
+      "min_lon": 50.0851,
+      "name": "Al Khobar",
+      "name_ar": "الخبر"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.2784,
+      "max_lon": 36.5445,
+      "min_lat": 26.1784,
+      "min_lon": 36.4445,
+      "name": "Al Wajh",
+      "name_ar": "الوجه"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.1741,
+      "max_lon": 45.5,
+      "min_lat": 25.0548,
+      "min_lon": 45.389,
+      "name": "Al Washm",
+      "name_ar": "الوشم"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.3825,
+      "max_lon": 40.3047,
+      "min_lat": 21.2757,
+      "min_lon": 40.1686,
+      "name": "Al hada",
+      "name_ar": "الهدا"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.3846,
+      "max_lon": 49.7436,
+      "min_lat": 25.2712,
+      "min_lon": 49.5689,
+      "name": "Al-Ahsa",
+      "name_ar": "واحة الأحساء"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.5673,
+      "max_lon": 39.7085,
+      "min_lat": 24.3697,
+      "min_lon": 39.4668,
+      "name": "Al-Ghamama",
+      "name_ar": "الغمامة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.4055,
+      "max_lon": 49.6432,
+      "min_lat": 25.2981,
+      "min_lon": 49.5431,
+      "name": "Al-Hufuf",
+      "name_ar": "الهفوف"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 29.888,
+      "max_lon": 40.0436,
+      "min_lat": 29.788,
+      "min_lon": 39.9206,
+      "name": "Al-Jawf",
+      "name_ar": "الجوف"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.0157,
+      "max_lon": 46.5702,
+      "min_lat": 24.8015,
+      "min_lon": 46.3699,
+      "name": "Al-Jubaylah",
+      "name_ar": "الجبيلة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.2001,
+      "max_lon": 47.3797,
+      "min_lat": 24.1001,
+      "min_lon": 47.2797,
+      "name": "Al-Kharj",
+      "name_ar": "الخرج"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 21.9615,
+      "max_lon": 42.0809,
+      "min_lat": 21.8615,
+      "min_lon": 41.9809,
+      "name": "Al-Khurmah",
+      "name_ar": "الخرمة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 19.8624,
+      "max_lon": 41.449,
+      "min_lat": 19.7624,
+      "min_lon": 41.349,
+      "name": "Al-Makhwah",
+      "name_ar": "المخواة"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 22.4833,
+      "max_lon": 41.8083,
+      "min_lat": 22.3833,
+      "min_lon": 41.7083,
+      "name": "Al-Muwayh",
+      "name_ar": "المويه"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 24.9339,
+      "max_lon": 45.9402,
+      "min_lat": 24.8339,
+      "min_lon": 45.8402,
+      "name": "Al-Uwaynid",
+      "name_ar": "العويند"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.726,
+      "max_lon": 38.0115,
+      "min_lat": 26.5504,
+      "min_lon": 37.8851,
+      "name": "AlUla",
+      "name_ar": "العلا"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.468,
+      "max_lon": 40.0235,
+      "min_lat": 21.3536,
+      "min_lon": 39.9235,
+      "name": "Arafat",
+      "name_ar": "عرفات"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 31.0389,
+      "max_lon": 41.088,
+      "min_lat": 30.9389,
+      "min_lon": 40.988,
+      "name": "Arar",
+      "name_ar": "عرعر"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 20.5107,
+      "max_lon": 45.6279,
+      "min_lat": 20.4107,
+      "min_lon": 45.5279,
+      "name": "As Sulayyil",
+      "name_ar": "السليّل"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.8167,
+      "max_lon": 42.0974,
+      "min_lat": 17.6893,
+      "min_lon": 41.9405,
+      "name": "Ash Shuqayq",
+      "name_ar": "الشقيق"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.3529,
+      "max_lon": 44.9049,
+      "min_lat": 26.2183,
+      "min_lon": 44.7704,
+      "name": "Az-Zulfi",
+      "name_ar": "الزُّلفِي"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.385,
+      "max_lon": 44.0503,
+      "min_lat": 26.276,
+      "min_lon": 43.8649,
+      "name": "Buraydah",
+      "name_ar": "بُرَيدَة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.532,
+      "max_lon": 50.1834,
+      "min_lat": 26.3318,
+      "min_lon": 49.9806,
+      "name": "Dammam",
+      "name_ar": "الدمام"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.5746,
+      "max_lon": 50.0965,
+      "min_lat": 26.4286,
+      "min_lon": 49.9672,
+      "name": "Darin",
+      "name_ar": "دارين"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.3943,
+      "max_lon": 50.1965,
+      "min_lat": 26.2558,
+      "min_lon": 50.0201,
+      "name": "Dhahran",
+      "name_ar": "الظهران"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.7702,
+      "max_lon": 43.5742,
+      "min_lat": 17.5923,
+      "min_lon": 43.4675,
+      "name": "Dhahran Al-Janoub",
+      "name_ar": "ظهران الجنوب"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 25.263,
+      "max_lon": 44.2706,
+      "min_lat": 25.163,
+      "min_lon": 44.1706,
+      "name": "Diriyah",
+      "name_ar": "الدِّيريَّة"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 24.05,
+      "max_lon": 49.8,
+      "min_lat": 23.95,
+      "min_lon": 49.7,
+      "name": "Eastern Province",
+      "name_ar": "المنطقة الشرقية"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.366,
+      "max_lon": 43.2113,
+      "min_lat": 17.126,
+      "min_lon": 42.9754,
+      "name": "Fayfa Mountains",
+      "name_ar": "جبل فيفاء"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 28.4695,
+      "max_lon": 46.0685,
+      "min_lat": 28.2623,
+      "min_lon": 45.9107,
+      "name": "Hafar Al-Batin",
+      "name_ar": "حفر الباطن‎"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 27.6022,
+      "max_lon": 41.7773,
+      "min_lat": 27.4102,
+      "min_lon": 41.6023,
+      "name": "Hail",
+      "name_ar": "حائل"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.4055,
+      "max_lon": 49.6432,
+      "min_lat": 25.2981,
+      "min_lon": 49.5431,
+      "name": "Hofuf",
+      "name_ar": "الهفوف"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.6257,
+      "max_lon": 39.2865,
+      "min_lat": 21.4287,
+      "min_lon": 39.1098,
+      "name": "Jabal Bani Malik",
+      "name_ar": "بني مالك"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.6076,
+      "max_lon": 46.743,
+      "min_lat": 24.4584,
+      "min_lon": 46.5245,
+      "name": "Jabal Uhud",
+      "name_ar": "أحد"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 24.7602,
+      "max_lon": 50.033,
+      "min_lat": 24.6602,
+      "min_lon": 49.9331,
+      "name": "Jafurah",
+      "name_ar": "الجافورة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.5912,
+      "max_lon": 39.2865,
+      "min_lat": 21.4277,
+      "min_lon": 39.1327,
+      "name": "Jeddah",
+      "name_ar": "جدّة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.0039,
+      "max_lon": 42.6572,
+      "min_lat": 16.8436,
+      "min_lon": 42.5384,
+      "name": "Jizan",
+      "name_ar": "جازان"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 27.1181,
+      "max_lon": 49.642,
+      "min_lat": 27.0174,
+      "min_lon": 49.542,
+      "name": "Jubail",
+      "name_ar": "الجبيل"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 31.3948,
+      "max_lon": 37.5888,
+      "min_lat": 31.2813,
+      "min_lon": 37.4281,
+      "name": "Kaf",
+      "name_ar": "كاف"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 28.4665,
+      "max_lon": 48.5121,
+      "min_lat": 28.3665,
+      "min_lon": 48.4121,
+      "name": "Khafji",
+      "name_ar": "الخفجي"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 18.3713,
+      "max_lon": 42.8377,
+      "min_lat": 18.2036,
+      "min_lon": 42.629,
+      "name": "Khamis Mushait",
+      "name_ar": "خميس مشيط"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.5652,
+      "max_lon": 39.7085,
+      "min_lat": 24.3697,
+      "min_lon": 39.4668,
+      "name": "Madinah",
+      "name_ar": "المدينة المنورة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.4537,
+      "max_lon": 39.8542,
+      "min_lat": 21.3537,
+      "min_lon": 39.7542,
+      "name": "Makkah",
+      "name_ar": "مكة المكرمة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 18.7884,
+      "max_lon": 41.3948,
+      "min_lat": 18.6701,
+      "min_lon": 41.2948,
+      "name": "Manjamah",
+      "name_ar": "المنجمة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.1741,
+      "max_lon": 45.4944,
+      "min_lat": 25.0548,
+      "min_lon": 45.389,
+      "name": "Marat",
+      "name_ar": "مرات"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.4537,
+      "max_lon": 39.8542,
+      "min_lat": 21.3537,
+      "min_lon": 39.7542,
+      "name": "Mecca",
+      "name_ar": "مكة المكرمة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.5652,
+      "max_lon": 39.7085,
+      "min_lat": 24.3697,
+      "min_lon": 39.4668,
+      "name": "Medina",
+      "name_ar": "المدينة المنورة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.4718,
+      "max_lon": 39.9732,
+      "min_lat": 21.3718,
+      "min_lon": 39.7835,
+      "name": "Mina",
+      "name_ar": "منى"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.6073,
+      "max_lon": 44.2434,
+      "min_lat": 17.4123,
+      "min_lon": 44.041,
+      "name": "Najran",
+      "name_ar": "نجران"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 20.0505,
+      "max_lon": 42.6552,
+      "min_lat": 19.9505,
+      "min_lon": 42.5552,
+      "name": "Qalat Bisha",
+      "name_ar": "قلعة بيشة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.4055,
+      "max_lon": 49.6432,
+      "min_lat": 25.2981,
+      "min_lon": 49.5431,
+      "name": "Qasr Ibrahim",
+      "name_ar": "الهفوف"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.642,
+      "max_lon": 50.094,
+      "min_lat": 26.4494,
+      "min_lon": 49.9623,
+      "name": "Qatif",
+      "name_ar": "القطيف"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 21.12,
+      "max_lon": 41.0583,
+      "min_lat": 21.02,
+      "min_lon": 40.9583,
+      "name": "Qiya",
+      "name_ar": "قيا"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 22.8416,
+      "max_lon": 39.0953,
+      "min_lat": 22.7416,
+      "min_lon": 38.9953,
+      "name": "Rabigh",
+      "name_ar": "رابغ"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.7227,
+      "max_lon": 50.0673,
+      "min_lat": 26.6227,
+      "min_lon": 49.947,
+      "name": "Ras Tanura",
+      "name_ar": "رأس تنورة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.8003,
+      "max_lon": 46.8289,
+      "min_lat": 24.5722,
+      "min_lon": 46.6118,
+      "name": "Riyadh",
+      "name_ar": "الرياض"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.6028,
+      "max_lon": 47.2131,
+      "min_lat": 25.5028,
+      "min_lon": 47.1131,
+      "name": "Rumāḩ",
+      "name_ar": "رماح"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 29.9697,
+      "max_lon": 40.2527,
+      "min_lat": 29.8517,
+      "min_lon": 40.1527,
+      "name": "Sakaka",
+      "name_ar": "skakہ"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.5767,
+      "max_lon": 50.0922,
+      "min_lat": 26.4572,
+      "min_lon": 49.9672,
+      "name": "Sanabis",
+      "name_ar": "سنابس"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 18.2941,
+      "max_lon": 42.6143,
+      "min_lat": 18.1773,
+      "min_lon": 42.4074,
+      "name": "Shadda Palace",
+      "name_ar": "أبها"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 28.4651,
+      "max_lon": 36.6331,
+      "min_lat": 28.3386,
+      "min_lon": 36.4783,
+      "name": "Tabuk",
+      "name_ar": "تبوک، سعودی عرب"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.3954,
+      "max_lon": 40.4809,
+      "min_lat": 21.1984,
+      "min_lon": 40.2964,
+      "name": "Taif",
+      "name_ar": "الطائف"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 18.1288,
+      "max_lon": 42.8355,
+      "min_lat": 17.9573,
+      "min_lon": 42.6613,
+      "name": "Tamniyah",
+      "name_ar": "تمنية"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.5974,
+      "max_lon": 50.0922,
+      "min_lat": 26.4523,
+      "min_lon": 49.9637,
+      "name": "Tarut",
+      "name_ar": "تاروت"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.1741,
+      "max_lon": 45.4944,
+      "min_lat": 25.0548,
+      "min_lon": 45.389,
+      "name": "Tharmada",
+      "name_ar": "ثرمداء"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 19.5638,
+      "max_lon": 41.9719,
+      "min_lat": 19.3561,
+      "min_lon": 41.8174,
+      "name": "Thurayban",
+      "name_ar": "ثريبان"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.6836,
+      "max_lon": 46.6463,
+      "min_lat": 24.4841,
+      "min_lon": 46.4774,
+      "name": "Tuwaiq",
+      "name_ar": "طويق"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.4405,
+      "max_lon": 42.6407,
+      "min_lat": 17.2582,
+      "min_lon": 42.4185,
+      "name": "Umm al Khashab",
+      "name_ar": "أم الخشب"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.176,
+      "max_lon": 44.1033,
+      "min_lat": 25.9932,
+      "min_lon": 43.9063,
+      "name": "Unayzah",
+      "name_ar": "عنيزة"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 25.6944,
+      "max_lon": 50.2645,
+      "min_lat": 25.5944,
+      "min_lon": 50.1645,
+      "name": "Uqair",
+      "name_ar": "العقير"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 25.8792,
+      "max_lon": 42.2512,
+      "min_lat": 25.7792,
+      "min_lon": 42.1512,
+      "name": "Uqlat as-Suqur",
+      "name_ar": "عقلة الصُّقور"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 26.0232,
+      "max_lon": 48.9277,
+      "min_lat": 25.9232,
+      "min_lon": 48.8277,
+      "name": "Urayarah",
+      "name_ar": "عريعرة"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 19.638,
+      "max_lon": 45.7166,
+      "min_lat": 19.5379,
+      "min_lon": 45.6166,
+      "name": "Uruq Bani Ma'arid",
+      "name_ar": "عروق بني معارض"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.3667,
+      "max_lon": 45.2401,
+      "min_lat": 25.2453,
+      "min_lon": 45.1333,
+      "name": "Ushaiqer",
+      "name_ar": "محافظة شقراء"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 21.8437,
+      "max_lon": 40.6943,
+      "min_lat": 21.6676,
+      "min_lon": 40.5871,
+      "name": "Ushayrah",
+      "name_ar": "الأشيرة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.956,
+      "max_lon": 46.4813,
+      "min_lat": 24.7856,
+      "min_lon": 46.3131,
+      "name": "Uyayna",
+      "name_ar": "العيينة"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 26.5483,
+      "max_lon": 43.6812,
+      "min_lat": 26.4483,
+      "min_lon": 43.5812,
+      "name": "Uyun al-Jiwa",
+      "name_ar": "عُيُون الجِواء"
+    },
+    {
+      "bbox_source": "point-buffer",
+      "max_lat": 20.0629,
+      "max_lon": 41.5177,
+      "min_lat": 19.9629,
+      "min_lon": 41.4177,
+      "name": "Wadi Al-Baida",
+      "name_ar": "albہah"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.2111,
+      "max_lon": 42.5339,
+      "min_lat": 17.0977,
+      "min_lon": 42.4163,
+      "name": "Wadi Baish",
+      "name_ar": "وادي بيش"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.446,
+      "max_lon": 46.9918,
+      "min_lat": 24.3438,
+      "min_lon": 46.8321,
+      "name": "Wadi Hanifa",
+      "name_ar": "وادي حنيفة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 19.6897,
+      "max_lon": 42.0293,
+      "min_lat": 19.5415,
+      "min_lon": 41.9065,
+      "name": "Wadi Shaybanah",
+      "name_ar": "وادي شيبانة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.1776,
+      "max_lon": 38.157,
+      "min_lat": 24.0776,
+      "min_lon": 37.9793,
+      "name": "Yanbu",
+      "name_ar": "ينبع"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.6177,
+      "max_lon": 47.0387,
+      "min_lat": 25.5177,
+      "min_lon": 46.9387,
+      "name": "al rumhiya",
+      "name_ar": "الرمحية"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 23.8934,
+      "max_lon": 38.9071,
+      "min_lat": 23.736,
+      "min_lon": 38.7317,
+      "name": "badr",
+      "name_ar": "بدر"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 19.6477,
+      "max_lon": 41.9983,
+      "min_lat": 19.5312,
+      "min_lon": 41.8983,
+      "name": "bal qarn",
+      "name_ar": "شعف بلقرن"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 19.3993,
+      "max_lon": 42.084,
+      "min_lat": 19.2813,
+      "min_lon": 41.9357,
+      "name": "jabal harfa",
+      "name_ar": "جبل حرفة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.0039,
+      "max_lon": 42.6572,
+      "min_lat": 16.8436,
+      "min_lon": 42.5384,
+      "name": "jazan",
+      "name_ar": "جازان"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.6028,
+      "max_lon": 47.2131,
+      "min_lat": 25.5028,
+      "min_lon": 47.1131,
+      "name": "rumheya",
+      "name_ar": "رماح"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 26.532,
+      "max_lon": 50.1834,
+      "min_lat": 26.3318,
+      "min_lon": 49.9806,
+      "name": "salih castle",
+      "name_ar": "الدمام"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 25.3412,
+      "max_lon": 45.2865,
+      "min_lat": 25.2102,
+      "min_lon": 45.1865,
+      "name": "shaqra",
+      "name_ar": "شقراء"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 24.693,
+      "max_lon": 46.7824,
+      "min_lat": 24.4841,
+      "min_lon": 46.5581,
+      "name": "shubra",
+      "name_ar": "شبرا"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.1989,
+      "max_lon": 42.8801,
+      "min_lat": 16.9918,
+      "min_lon": 42.6719,
+      "name": "wadi damad",
+      "name_ar": "ضمد"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 19.2793,
+      "max_lon": 41.8576,
+      "min_lat": 19.1631,
+      "min_lon": 41.7576,
+      "name": "wadi yiba",
+      "name_ar": "وادي يبة"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.2342,
+      "max_lon": 42.7369,
+      "min_lat": 17.0392,
+      "min_lon": 42.5101,
+      "name": "Şabyā",
+      "name_ar": "صبيا"
+    },
+    {
+      "bbox_source": "osm-footprint",
+      "max_lat": 17.7334,
+      "max_lon": 42.3002,
+      "min_lat": 17.5264,
+      "min_lon": 42.1952,
+      "name": "‘Itwad",
+      "name_ar": "عتود"
+    }
+  ],
+  "provinces": [
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 20.9,
+      "max_lon": 42.2864,
+      "min_lat": 18.875,
+      "min_lon": 40.8,
+      "n_points": 147,
+      "name": "Al-Bahah",
+      "name_ar": "الباحة"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 31.7634,
+      "max_lon": 41.6897,
+      "min_lat": 28.6199,
+      "min_lon": 34.6851,
+      "n_points": 118,
+      "name": "Al-Jawf",
+      "name_ar": "الجوف"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 22.233,
+      "max_lon": 44.5202,
+      "min_lat": 17.3539,
+      "min_lon": 40.6685,
+      "n_points": 1265,
+      "name": "Asir",
+      "name_ar": "عسير"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 29.332,
+      "max_lon": 54.346,
+      "min_lat": 20.9619,
+      "min_lon": 44.6482,
+      "n_points": 224,
+      "name": "Eastern Province",
+      "name_ar": "المنطقة الشرقية"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 28.9551,
+      "max_lon": 43.935,
+      "min_lat": 25.3488,
+      "min_lon": 40.0795,
+      "n_points": 173,
+      "name": "Hail",
+      "name_ar": "حائل"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 18.5333,
+      "max_lon": 43.7,
+      "min_lat": 16.1667,
+      "min_lon": 41.3661,
+      "n_points": 244,
+      "name": "Jazan",
+      "name_ar": "جازان"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 27.0217,
+      "max_lon": 41.6152,
+      "min_lat": 22.3599,
+      "min_lon": 37.6732,
+      "n_points": 252,
+      "name": "Madinah",
+      "name_ar": "المدينة المنورة"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 25.0384,
+      "max_lon": 46.986,
+      "min_lat": 16.6611,
+      "min_lon": 38.7849,
+      "n_points": 614,
+      "name": "Makkah",
+      "name_ar": "مكة المكرمة"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 19.1098,
+      "max_lon": 51.378,
+      "min_lat": 16.8084,
+      "min_lon": 43.4429,
+      "n_points": 158,
+      "name": "Najran",
+      "name_ar": "نجران"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 31.9225,
+      "max_lon": 45.8216,
+      "min_lat": 28.213,
+      "min_lon": 38.413,
+      "n_points": 45,
+      "name": "Northern Borders",
+      "name_ar": "الحدود الشمالية"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 27.8468,
+      "max_lon": 44.8403,
+      "min_lat": 24.493,
+      "min_lon": 41.7792,
+      "n_points": 328,
+      "name": "Qassim",
+      "name_ar": "القصيم"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 32.7492,
+      "max_lon": 48.3223,
+      "min_lat": 19.5332,
+      "min_lon": 42.3667,
+      "n_points": 809,
+      "name": "Riyadh",
+      "name_ar": "الرياض"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 29.0167,
+      "max_lon": 38.7888,
+      "min_lat": 24.4578,
+      "min_lon": 34.4956,
+      "n_points": 69,
+      "name": "Tabuk",
+      "name_ar": "تبوك"
+    }
+  ],
+  "regions": [
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 22.233,
+      "max_lon": 51.378,
+      "min_lat": 16.1667,
+      "min_lon": 40.6685,
+      "n_points": 1814,
+      "name": "Asir",
+      "name_ar": "عسير"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 29.332,
+      "max_lon": 54.346,
+      "min_lat": 20.9619,
+      "min_lon": 44.6482,
+      "n_points": 224,
+      "name": "Eastern Province",
+      "name_ar": "المنطقة الشرقية"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 29.0167,
+      "max_lon": 46.986,
+      "min_lat": 16.6611,
+      "min_lon": 34.4956,
+      "n_points": 935,
+      "name": "Hejaz",
+      "name_ar": "الحجاز"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 32.7492,
+      "max_lon": 48.3223,
+      "min_lat": 19.5332,
+      "min_lon": 40.0795,
+      "n_points": 1310,
+      "name": "Najd",
+      "name_ar": "نجد"
+    },
+    {
+      "bbox_source": "geonames-point-extent",
+      "max_lat": 31.9225,
+      "max_lon": 45.8216,
+      "min_lat": 28.213,
+      "min_lon": 34.6851,
+      "n_points": 163,
+      "name": "Northern Borders",
+      "name_ar": "الحدود الشمالية"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+/**
+ * tokens.css — the shared design language (tracker B2).
+ *
+ * One artifact, five scenes: every scene draws from these tokens and only
+ * these tokens. Rules encoded here, so they cannot drift per-scene:
+ *
+ *  1. viewable = bright/solid; metadata-only = dim/eroded — EVERYWHERE.
+ *  2. Contribution colors (guess / sourced) are RESERVED now, unused until
+ *     Track C ships. Nothing else may take them.
+ *  3. Absence has one consistent treatment (muted warm grey + hatching);
+ *     the reader learns "this = a gap" once.
+ *  4. Logical properties only in all CSS (`margin-inline-start`, never
+ *     `margin-left`) — the layout must survive dir="rtl" untouched.
+ *  5. Arabic gets its own type scale — Naskh needs larger sizes and taller
+ *     line-heights than the Latin equivalents at the same hierarchy level.
+ *  6. The paper/ink texture reads as *the document*, never *the land*.
+ */
+
+:root {
+  /* ── ground: paper & ink ─────────────────────────────────────────── */
+  --paper:        #f3efe6;   /* warm paper ground */
+  --paper-deep:   #e9e3d5;   /* recessed panels, catalogue cards */
+  --ink:          #33291f;   /* primary ink */
+  --ink-soft:     #6b6256;   /* secondary ink, captions */
+  --ink-faint:    #9c948a;   /* tertiary; also the ABSENCE grey */
+
+  /* dark field (Scene A: the old-map ground the ink spots sit on) */
+  --field:        #1c1913;   /* near-black warm dark, not blue */
+  --field-line:   #35302a;
+  --bone:         #ece7d9;   /* ink on the dark field */
+
+  /* ── the shared categorical palette (from explore_visualize_v2) ──── */
+  --accent:       #bc5446;   /* terracotta — the signal being told */
+  --context:      #cfc7ba;   /* warm light grey — everything else */
+  --absence:      #9c948a;   /* muted warm grey — undated/unplaced/absent */
+  --saudi:        #bb8e3c;   /* ochre — located-in-Saudi */
+  --second:       #ffb08d;   /* peach — secondary series */
+
+  /* regions (map ↔ matrix ↔ bars must speak one language) */
+  --region-hejaz:    #e3a857;
+  --region-najd:     #d77f57;
+  --region-eastern:  #5fa39a;
+  --region-north:    #94a06a;
+  --region-asir:     #b4708f;
+  --region-unplaced: var(--absence);
+
+  /* ── rule 1: visibility as luminance ─────────────────────────────── */
+  --viewable-opacity:      1;
+  --metadata-only-opacity: 0.38;
+  --metadata-only-filter:  saturate(0.55);
+
+  /* ── rule 2: contribution colors — RESERVED, do not use yet ──────── */
+  --contrib-guess:   #4d7ea8;  /* community guess (kind: guess) */
+  --contrib-sourced: #3f7d54;  /* sourced fill   (kind: sourced) */
+
+  /* ── rule 3: absence treatment ────────────────────────────────────── */
+  --absence-hatch: repeating-linear-gradient(
+    -45deg,
+    transparent 0 3px,
+    color-mix(in srgb, var(--absence) 45%, transparent) 3px 4px
+  );
+
+  /* ── type: paired faces, chosen together against paper/ink ──────── */
+  /* Latin display serif ↔ Amiri (Naskh revival — reads as the archival
+     document register). UI/body: Source Sans ↔ IBM Plex Sans Arabic.   */
+  --font-display:    "Lora", "Amiri", serif;
+  --font-display-ar: "Amiri", "Lora", serif;
+  --font-body:       "Source Sans 3", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-body-ar:    "IBM Plex Sans Arabic", "Source Sans 3", system-ui, sans-serif;
+  --font-data:       "Source Sans 3", monospace; /* figures, axes, record ids */
+
+  /* Latin scale */
+  --fs-display: 2.6rem;  --lh-display: 1.15;
+  --fs-lede:    1.35rem; --lh-lede:    1.5;
+  --fs-body:    1.05rem; --lh-body:    1.65;
+  --fs-caption: 0.85rem; --lh-caption: 1.5;
+
+  /* rule 5: Arabic scale (larger, taller — Naskh sits low on the line) */
+  --fs-display-ar: 2.8rem;  --lh-display-ar: 1.5;
+  --fs-lede-ar:    1.45rem; --lh-lede-ar:    1.9;
+  --fs-body-ar:    1.15rem; --lh-body-ar:    2.0;
+  --fs-caption-ar: 0.95rem; --lh-caption-ar: 1.8;
+
+  /* spacing (use with logical props only) */
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 1rem;
+  --space-4: 1.75rem; --space-5: 3rem;   --space-6: 5rem;
+
+  --measure: 62ch;            /* prose width */
+  --radius:  2px;             /* near-square: catalogue card, not app chrome */
+}
+
+/* Locale-driven type switching: set lang+dir on <html>, everything follows. */
+:lang(ar) {
+  --font-display: var(--font-display-ar);
+  --font-body:    var(--font-body-ar);
+  --fs-display: var(--fs-display-ar); --lh-display: var(--lh-display-ar);
+  --fs-lede:    var(--fs-lede-ar);    --lh-lede:    var(--lh-lede-ar);
+  --fs-body:    var(--fs-body-ar);    --lh-body:    var(--lh-body-ar);
+  --fs-caption: var(--fs-caption-ar); --lh-caption: var(--lh-caption-ar);
+}
+
+/* Archival record data embedded in the other locale stays verbatim (B2b):
+   mark it with its own lang attribute and it keeps its own script metrics. */
+[lang="en"]:lang(ar), [lang="ar"]:lang(en) {
+  font-family: var(--font-body);
+}

@@ -1,0 +1,221 @@
+{
+  "_note": "Counts per archival access tier; sample_ids are the first 5 record ids per tier (deterministic).",
+  "tiers": [
+    {
+      "access_status": "CC BY",
+      "label": {
+        "ar": "نَسب المُصنَّف",
+        "en": "CC BY"
+      },
+      "n": 6,
+      "sample_ids": [
+        "commons:104125139",
+        "commons:151059503",
+        "commons:15769538",
+        "commons:2389538",
+        "commons:26865769"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "CC BY-NC-SA",
+      "label": {
+        "ar": "نَسب - غير تجاري - الترخيص بالمثل",
+        "en": "CC BY-NC-SA"
+      },
+      "n": 34,
+      "sample_ids": [
+        "berlin_smb:49303",
+        "berlin_smb:49312",
+        "berlin_smb:49323",
+        "berlin_smb:49334",
+        "berlin_smb:49339"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "CC BY-SA",
+      "label": {
+        "ar": "نَسب المُصنَّف - الترخيص بالمثل",
+        "en": "CC BY-SA"
+      },
+      "n": 175,
+      "sample_ids": [
+        "commons:102801902",
+        "commons:102914971",
+        "commons:102914972",
+        "commons:102914981",
+        "commons:102914988"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "CC0 (public-domain dedication)",
+      "label": {
+        "ar": "المشاع الإبداعي صفر",
+        "en": "CC0 (public domain)"
+      },
+      "n": 18,
+      "sample_ids": [
+        "commons:151636607",
+        "commons:15774284",
+        "commons:45951417",
+        "commons:84967465",
+        "commons:85633244"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "Catalogue metadata only (copies by order)",
+      "label": {
+        "ar": "نسخ بالطلب",
+        "en": "Copies by order"
+      },
+      "n": 3014,
+      "sample_ids": [
+        "meca:GB165-0023:1/12",
+        "meca:GB165-0023:1/13",
+        "meca:GB165-0023:1/14",
+        "meca:GB165-0023:1/15",
+        "meca:GB165-0023:1/16"
+      ],
+      "viewable": false
+    },
+    {
+      "access_status": "Online (image available)",
+      "label": {
+        "ar": "متاح على الإنترنت (صورة متوفرة)",
+        "en": "Online (image available)"
+      },
+      "n": 229,
+      "sample_ids": [
+        "leiden:1658727",
+        "leiden:1663246",
+        "leiden:1664641",
+        "leiden:1682118",
+        "leiden:1682737"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "Online view; download restricted",
+      "label": {
+        "ar": "عرض على الإنترنت؛ التنزيل مقيَّد",
+        "en": "Online view; download restricted"
+      },
+      "n": 1,
+      "sample_ids": [
+        "leiden:3243784"
+      ],
+      "viewable": false
+    },
+    {
+      "access_status": "Open",
+      "label": {
+        "ar": "اطّلاع مفتوح (في الموقع)",
+        "en": "Open consultation (on-site)"
+      },
+      "n": 811,
+      "sample_ids": [
+        "meca:GB165-0364:1/1",
+        "meca:GB165-0364:8/1",
+        "meca:GB165-0364:8/10",
+        "meca:GB165-0364:8/11",
+        "meca:GB165-0364:8/12"
+      ],
+      "viewable": false
+    },
+    {
+      "access_status": "Other free licence",
+      "label": {
+        "ar": "ترخيص حر آخر",
+        "en": "Other free licence"
+      },
+      "n": 1,
+      "sample_ids": [
+        "commons:47715735"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "Pitt Rivers Museum (Thesiger Collection): images viewable online; reproduction/prints via PRM. Item metadata harvested from PRM Prints (prmprints.com, fulfilled by King & McGaw).",
+      "label": {
+        "ar": "متاح للعرض على الإنترنت (متحف بيت ريفرز)",
+        "en": "Viewable online (PRM / Thesiger)"
+      },
+      "n": 2590,
+      "sample_ids": [
+        "prm-thesiger:pod458684",
+        "prm-thesiger:pod458688",
+        "prm-thesiger:pod458692",
+        "prm-thesiger:pod458693",
+        "prm-thesiger:pod458694"
+      ],
+      "viewable": false
+    },
+    {
+      "access_status": "Public domain / no known restrictions",
+      "label": {
+        "ar": "ملكية عامة",
+        "en": "Public domain"
+      },
+      "n": 824,
+      "sample_ids": [
+        "commons:102360112",
+        "commons:102360113",
+        "commons:102360114",
+        "commons:102360118",
+        "commons:102360119"
+      ],
+      "viewable": true
+    },
+    {
+      "access_status": "Publication may be restricted",
+      "label": {
+        "ar": "قد يكون النشر مقيَّداً",
+        "en": "Publication may be restricted"
+      },
+      "n": 5,
+      "sample_ids": [
+        "loc:2004672505",
+        "loc:2019646900",
+        "loc:2021681220",
+        "loc:2021681221",
+        "loc:97520796"
+      ],
+      "viewable": false
+    },
+    {
+      "access_status": "Restricted: on-site only",
+      "label": {
+        "ar": "مقيَّد (في الموقع فقط)",
+        "en": "Restricted (on-site only)"
+      },
+      "n": 43,
+      "sample_ids": [
+        "leiden:1830024",
+        "leiden:1830071",
+        "leiden:1833989",
+        "leiden:1835363",
+        "leiden:1835502"
+      ],
+      "viewable": false
+    },
+    {
+      "access_status": "Rights status not evaluated",
+      "label": {
+        "ar": "لم تُقيَّم حالة الحقوق",
+        "en": "Rights status not evaluated"
+      },
+      "n": 9,
+      "sample_ids": [
+        "loc:05010097",
+        "loc:2002698455",
+        "loc:2002698459",
+        "loc:2002698460",
+        "loc:2002714353"
+      ],
+      "viewable": false
+    }
+  ]
+}

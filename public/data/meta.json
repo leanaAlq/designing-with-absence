@@ -1,0 +1,25 @@
+{
+  "attributions": [
+    "GeoNames (geonames.org), CC BY 4.0 — settlement points & coordinates",
+    "HOTOSM / © OpenStreetMap contributors, ODbL — urban-footprint city extents",
+    "Ethnologisches Museum, Staatliche Museen zu Berlin (SMB).",
+    "Leiden University Libraries (Snouck Hurgronje and related collections).",
+    "Library of Congress, Prints & Photographs Division.",
+    "Middle East Centre Archive (MECA), St Antony's College, Oxford — Philby and related collections.",
+    "Pitt Rivers Museum (Wilfred Thesiger Collection), University of Oxford; item metadata via PRM Prints (prmprints.com).",
+    "Wikimedia Commons contributors — individual file licences as recorded."
+  ],
+  "data_hash": "0ef288cebf565418a44891140c6f56faee0681fc50b2ee0e70a94af125a0ea4a",
+  "record_count": 7760,
+  "record_count_all_layers": 7763,
+  "schema_version": 1,
+  "source_shares": {
+    "Ethnologisches Museum, Berlin (SMB)": 34,
+    "Leiden University Libraries": 265,
+    "Library of Congress": 153,
+    "Middle East Centre Archive (MECA), St Antony's College, Oxford": 3825,
+    "Pitt Rivers Museum (Wilfred Thesiger Collection), University of Oxford": 2590,
+    "Wikimedia Commons": 893
+  },
+  "version": "v1"
+}

@@ -1,0 +1,293 @@
+{
+  "_note": "Every label as {en, ar}. city_ar merges dump values with human-owned labels_manual.py.",
+  "access_tiers": {
+    "CC BY": {
+      "ar": "نَسب المُصنَّف",
+      "en": "CC BY"
+    },
+    "CC BY-NC-SA": {
+      "ar": "نَسب - غير تجاري - الترخيص بالمثل",
+      "en": "CC BY-NC-SA"
+    },
+    "CC BY-SA": {
+      "ar": "نَسب المُصنَّف - الترخيص بالمثل",
+      "en": "CC BY-SA"
+    },
+    "CC0 (public-domain dedication)": {
+      "ar": "المشاع الإبداعي صفر",
+      "en": "CC0 (public domain)"
+    },
+    "Catalogue metadata only (copies by order)": {
+      "ar": "نسخ بالطلب",
+      "en": "Copies by order"
+    },
+    "Online (image available)": {
+      "ar": "متاح على الإنترنت (صورة متوفرة)",
+      "en": "Online (image available)"
+    },
+    "Online view; download restricted": {
+      "ar": "عرض على الإنترنت؛ التنزيل مقيَّد",
+      "en": "Online view; download restricted"
+    },
+    "Open": {
+      "ar": "اطّلاع مفتوح (في الموقع)",
+      "en": "Open consultation (on-site)"
+    },
+    "Other free licence": {
+      "ar": "ترخيص حر آخر",
+      "en": "Other free licence"
+    },
+    "Pitt Rivers Museum (Thesiger Collection): images viewable online; reproduction/prints via PRM. Item metadata harvested from PRM Prints (prmprints.com, fulfilled by King & McGaw).": {
+      "ar": "متاح للعرض على الإنترنت (متحف بيت ريفرز)",
+      "en": "Viewable online (PRM / Thesiger)"
+    },
+    "Public domain / no known restrictions": {
+      "ar": "ملكية عامة",
+      "en": "Public domain"
+    },
+    "Publication may be restricted": {
+      "ar": "قد يكون النشر مقيَّداً",
+      "en": "Publication may be restricted"
+    },
+    "Restricted: on-site only": {
+      "ar": "مقيَّد (في الموقع فقط)",
+      "en": "Restricted (on-site only)"
+    },
+    "Rights status not evaluated": {
+      "ar": "لم تُقيَّم حالة الحقوق",
+      "en": "Rights status not evaluated"
+    }
+  },
+  "city_ar": {
+    "Abha": "أبها",
+    "Abyar Ali": "آبار علي",
+    "Al Ahsa": "المنطقة الشرقية",
+    "Al Baydayn": "البيدين",
+    "Al Harrah": "الحرة",
+    "Al Khobar": "الخبر",
+    "Al Wajh": "الوجه",
+    "Al Washm": "الوشم",
+    "Al hada": "الهدا",
+    "Al-Ahsa": "واحة الأحساء",
+    "Al-Ghamama": "الغمامة",
+    "Al-Hufuf": "الهفوف",
+    "Al-Jawf": "الجوف",
+    "Al-Jubaylah": "الجبيلة",
+    "Al-Kharj": "الخرج",
+    "Al-Khurmah": "الخرمة",
+    "Al-Makhwah": "المخواة",
+    "Al-Muwayh": "المويه",
+    "Al-Uwaynid": "العويند",
+    "AlUla": "العلا",
+    "Arafat": "عرفات",
+    "Arar": "عرعر",
+    "As Sulayyil": "السليّل",
+    "Ash Shuqayq": "الشقيق",
+    "Az-Zulfi": "الزُّلفِي",
+    "Buraydah": "بُرَيدَة",
+    "Dammam": "الدمام",
+    "Darin": "دارين",
+    "Dhahran": "الظهران",
+    "Dhahran Al-Janoub": "ظهران الجنوب",
+    "Diriyah": "الدِّيريَّة",
+    "Eastern Province": "المنطقة الشرقية",
+    "Fayfa Mountains": "جبل فيفاء",
+    "Hafar Al-Batin": "حفر الباطن‎",
+    "Hail": "حائل",
+    "Hofuf": "الهفوف",
+    "Jabal Bani Malik": "بني مالك",
+    "Jabal Uhud": "أحد",
+    "Jafurah": "الجافورة",
+    "Jeddah": "جدّة",
+    "Jizan": "جازان",
+    "Jubail": "الجبيل",
+    "Kaf": "كاف",
+    "Khafji": "الخفجي",
+    "Khamis Mushait": "خميس مشيط",
+    "Madinah": "المدينة المنورة",
+    "Makkah": "مكة المكرمة",
+    "Manjamah": "المنجمة",
+    "Marat": "مرات",
+    "Mecca": "مكة المكرمة",
+    "Medina": "المدينة المنورة",
+    "Mina": "منى",
+    "Najran": "نجران",
+    "Qalat Bisha": "قلعة بيشة",
+    "Qasr Ibrahim": "الهفوف",
+    "Qatif": "القطيف",
+    "Qiya": "قيا",
+    "Rabigh": "رابغ",
+    "Ras Tanura": "رأس تنورة",
+    "Riyadh": "الرياض",
+    "Rumāḩ": "رماح",
+    "Sakaka": "skakہ",
+    "Sanabis": "سنابس",
+    "Shadda Palace": "أبها",
+    "Tabuk": "تبوک، سعودی عرب",
+    "Taif": "الطائف",
+    "Tamniyah": "تمنية",
+    "Tarut": "تاروت",
+    "Tharmada": "ثرمداء",
+    "Thurayban": "ثريبان",
+    "Tuwaiq": "طويق",
+    "Umm al Khashab": "أم الخشب",
+    "Unayzah": "عنيزة",
+    "Uqair": "العقير",
+    "Uqlat as-Suqur": "عقلة الصُّقور",
+    "Urayarah": "عريعرة",
+    "Uruq Bani Ma'arid": "عروق بني معارض",
+    "Ushaiqer": "محافظة شقراء",
+    "Ushayrah": "الأشيرة",
+    "Uyayna": "العيينة",
+    "Uyun al-Jiwa": "عُيُون الجِواء",
+    "Wadi Al-Baida": "albہah",
+    "Wadi Baish": "وادي بيش",
+    "Wadi Hanifa": "وادي حنيفة",
+    "Wadi Shaybanah": "وادي شيبانة",
+    "Yanbu": "ينبع",
+    "al rumhiya": "الرمحية",
+    "badr": "بدر",
+    "bal qarn": "شعف بلقرن",
+    "jabal harfa": "جبل حرفة",
+    "jazan": "جازان",
+    "rumheya": "رماح",
+    "salih castle": "الدمام",
+    "shaqra": "شقراء",
+    "shubra": "شبرا",
+    "wadi damad": "ضمد",
+    "wadi yiba": "وادي يبة",
+    "Şabyā": "صبيا",
+    "‘Itwad": "عتود"
+  },
+  "decade_rules": {
+    "": {
+      "ar": "غير مؤرَّخ",
+      "en": "Undated"
+    },
+    "_suffix_note": "Non-empty decades render verbatim (e.g. '1940s' / 'الأربعينيات')."
+  },
+  "forms": {
+    "context": {
+      "ar": "السياق",
+      "en": "Context"
+    },
+    "date": {
+      "ar": "التاريخ",
+      "en": "Date"
+    },
+    "maker": {
+      "ar": "المُصوِّر",
+      "en": "Maker"
+    },
+    "place": {
+      "ar": "المكان",
+      "en": "Place"
+    },
+    "visible": {
+      "ar": "الإتاحة",
+      "en": "Visibility"
+    }
+  },
+  "misc": {
+    "contested": {
+      "ar": "منازَع عليه",
+      "en": "Contested"
+    },
+    "no_date_band": {
+      "ar": "بلا تاريخ",
+      "en": "No date"
+    },
+    "not_viewable": {
+      "ar": "غير قابل للعرض",
+      "en": "Not viewable"
+    },
+    "unplaced_band": {
+      "ar": "غير محدَّد الموقع",
+      "en": "Unplaced"
+    },
+    "viewable": {
+      "ar": "قابل للعرض",
+      "en": "Viewable"
+    }
+  },
+  "provinces": {
+    "Al-Bahah": {
+      "ar": "الباحة",
+      "en": "Al-Bahah"
+    },
+    "Al-Jawf": {
+      "ar": "الجوف",
+      "en": "Al-Jawf"
+    },
+    "Asir": {
+      "ar": "عسير",
+      "en": "Asir"
+    },
+    "Eastern Province": {
+      "ar": "المنطقة الشرقية",
+      "en": "Eastern Province"
+    },
+    "Hail": {
+      "ar": "حائل",
+      "en": "Hail"
+    },
+    "Jazan": {
+      "ar": "جازان",
+      "en": "Jazan"
+    },
+    "Madinah": {
+      "ar": "المدينة المنورة",
+      "en": "Madinah"
+    },
+    "Makkah": {
+      "ar": "مكة المكرمة",
+      "en": "Makkah"
+    },
+    "Najran": {
+      "ar": "نجران",
+      "en": "Najran"
+    },
+    "Northern Borders": {
+      "ar": "الحدود الشمالية",
+      "en": "Northern Borders"
+    },
+    "Qassim": {
+      "ar": "القصيم",
+      "en": "Qassim"
+    },
+    "Riyadh": {
+      "ar": "الرياض",
+      "en": "Riyadh"
+    },
+    "Tabuk": {
+      "ar": "تبوك",
+      "en": "Tabuk"
+    }
+  },
+  "regions": {
+    "Asir": {
+      "ar": "عسير",
+      "en": "Asir"
+    },
+    "Eastern Province": {
+      "ar": "المنطقة الشرقية",
+      "en": "Eastern Province"
+    },
+    "Hejaz": {
+      "ar": "الحجاز",
+      "en": "Hejaz"
+    },
+    "Najd": {
+      "ar": "نجد",
+      "en": "Najd"
+    },
+    "Northern Borders": {
+      "ar": "الحدود الشمالية",
+      "en": "Northern Borders"
+    },
+    "unplaced": {
+      "ar": "غير محدَّد الموقع",
+      "en": "Unplaced"
+    }
+  }
+}

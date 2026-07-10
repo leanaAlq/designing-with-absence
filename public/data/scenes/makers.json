@@ -1,0 +1,141 @@
+{
+  "_note": "photographer_origin x attribution_basis over the site pool.",
+  "collector_attribution": {
+    "_note": "records attributed only to the collector (attribution_basis == 'attributed-to-collector') — the redaction scene.",
+    "n": 1137
+  },
+  "contested": {
+    "ids": [
+      "commons:67976118",
+      "commons:67976140",
+      "commons:67976153",
+      "commons:67976172",
+      "commons:67976173",
+      "commons:67976210",
+      "leiden:3186509",
+      "leiden:3187495",
+      "leiden:3187739",
+      "leiden:3187780",
+      "leiden:3187789",
+      "loc:2005684339"
+    ],
+    "n": 12
+  },
+  "matrix": [
+    {
+      "attribution_basis": "named-in-record",
+      "n": 345,
+      "photographer_origin": "American"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 7,
+      "photographer_origin": "American (American Colony Jerusalem)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 4,
+      "photographer_origin": "American (commercial)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 5,
+      "photographer_origin": "Armenian"
+    },
+    {
+      "attribution_basis": "origin-known-name-unknown",
+      "n": 11,
+      "photographer_origin": "Egyptian (regional non-European)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 1,
+      "photographer_origin": "European (British commercial)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 2865,
+      "photographer_origin": "European (British)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 2,
+      "photographer_origin": "European (Dutch commercial)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 73,
+      "photographer_origin": "European (Dutch)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 3,
+      "photographer_origin": "European (French)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 74,
+      "photographer_origin": "European (German)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 112,
+      "photographer_origin": "European (Swiss)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 12,
+      "photographer_origin": "Indian"
+    },
+    {
+      "attribution_basis": "contested",
+      "n": 12,
+      "photographer_origin": "Indigenous Arabian (Meccan)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 32,
+      "photographer_origin": "Indigenous Arabian (Meccan)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 1,
+      "photographer_origin": "Indonesian (colonial subject)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 1,
+      "photographer_origin": "Northeast Asian"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 9,
+      "photographer_origin": "Ottoman"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 12,
+      "photographer_origin": "Ottoman (Armenian)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 4,
+      "photographer_origin": "Saudi (institutional)"
+    },
+    {
+      "attribution_basis": "named-in-record",
+      "n": 2748,
+      "photographer_origin": "Unclassified (review)"
+    },
+    {
+      "attribution_basis": "attributed-to-collector",
+      "n": 1137,
+      "photographer_origin": "Unknown"
+    },
+    {
+      "attribution_basis": "unattributed",
+      "n": 290,
+      "photographer_origin": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "_note": "Region x decade counts over the site (non-contemporary) pool. 'unplaced' region band and 'no-date' decade band are rows of their own — absence is never the remainder.",
+  "bands": {
+    "decade": [
+      "no-date"
+    ],
+    "region": [
+      "unplaced"
+    ]
+  },
+  "cells": [
+    {
+      "decade": "1930s",
+      "n": 6,
+      "region": "Asir",
+      "viewable": 0
+    },
+    {
+      "decade": "1940s",
+      "n": 684,
+      "region": "Asir",
+      "viewable": 0
+    },
+    {
+      "decade": "no-date",
+      "n": 7,
+      "region": "Asir",
+      "viewable": 0
+    },
+    {
+      "decade": "1900s",
+      "n": 29,
+      "region": "Eastern Province",
+      "viewable": 29
+    },
+    {
+      "decade": "1910s",
+      "n": 19,
+      "region": "Eastern Province",
+      "viewable": 0
+    },
+    {
+      "decade": "1920s",
+      "n": 49,
+      "region": "Eastern Province",
+      "viewable": 45
+    },
+    {
+      "decade": "1930s",
+      "n": 265,
+      "region": "Eastern Province",
+      "viewable": 203
+    },
+    {
+      "decade": "1940s",
+      "n": 102,
+      "region": "Eastern Province",
+      "viewable": 33
+    },
+    {
+      "decade": "1950s",
+      "n": 17,
+      "region": "Eastern Province",
+      "viewable": 12
+    },
+    {
+      "decade": "1960s",
+      "n": 76,
+      "region": "Eastern Province",
+      "viewable": 41
+    },
+    {
+      "decade": "1970s",
+      "n": 5,
+      "region": "Eastern Province",
+      "viewable": 0
+    },
+    {
+      "decade": "1980s",
+      "n": 27,
+      "region": "Eastern Province",
+      "viewable": 0
+    },
+    {
+      "decade": "no-date",
+      "n": 20,
+      "region": "Eastern Province",
+      "viewable": 4
+    },
+    {
+      "decade": "1830s",
+      "n": 1,
+      "region": "Hejaz",
+      "viewable": 1
+    },
+    {
+      "decade": "1850s",
+      "n": 16,
+      "region": "Hejaz",
+      "viewable": 16
+    },
+    {
+      "decade": "1860s",
+      "n": 1,
+      "region": "Hejaz",
+      "viewable": 1
+    },
+    {
+      "decade": "1870s",
+      "n": 9,
+      "region": "Hejaz",
+      "viewable": 9
+    },
+    {
+      "decade": "1880s",
+      "n": 237,
+      "region": "Hejaz",
+      "viewable": 233
+    },
+    {
+      "decade": "1890s",
+      "n": 3,
+      "region": "Hejaz",
+      "viewable": 3
+    },
+    {
+      "decade": "1900s",
+      "n": 52,
+      "region": "Hejaz",
+      "viewable": 20
+    },
+    {
+      "decade": "1910s",
+      "n": 233,
+      "region": "Hejaz",
+      "viewable": 103
+    },
+    {
+      "decade": "1920s",
+      "n": 31,
+      "region": "Hejaz",
+      "viewable": 6
+    },
+    {
+      "decade": "1930s",
+      "n": 616,
+      "region": "Hejaz",
+      "viewable": 24
+    },
+    {
+      "decade": "1940s",
+      "n": 284,
+      "region": "Hejaz",
+      "viewable": 7
+    },
+    {
+      "decade": "1950s",
+      "n": 37,
+      "region": "Hejaz",
+      "viewable": 0
+    },
+    {
+      "decade": "1960s",
+      "n": 17,
+      "region": "Hejaz",
+      "viewable": 0
+    },
+    {
+      "decade": "no-date",
+      "n": 377,
+      "region": "Hejaz",
+      "viewable": 15
+    },
+    {
+      "decade": "1910s",
+      "n": 129,
+      "region": "Najd",
+      "viewable": 0
+    },
+    {
+      "decade": "1920s",
+      "n": 2,
+      "region": "Najd",
+      "viewable": 1
+    },
+    {
+      "decade": "1930s",
+      "n": 99,
+      "region": "Najd",
+      "viewable": 4
+    },
+    {
+      "decade": "1940s",
+      "n": 150,
+      "region": "Najd",
+      "viewable": 8
+    },
+    {
+      "decade": "1950s",
+      "n": 63,
+      "region": "Najd",
+      "viewable": 1
+    },
+    {
+      "decade": "1960s",
+      "n": 10,
+      "region": "Najd",
+      "viewable": 0
+    },
+    {
+      "decade": "no-date",
+      "n": 22,
+      "region": "Najd",
+      "viewable": 0
+    },
+    {
+      "decade": "1920s",
+      "n": 19,
+      "region": "Northern Borders",
+      "viewable": 0
+    },
+    {
+      "decade": "no-date",
+      "n": 24,
+      "region": "Northern Borders",
+      "viewable": 0
+    },
+    {
+      "decade": "1810s",
+      "n": 1,
+      "region": "unplaced",
+      "viewable": 1
+    },
+    {
+      "decade": "1820s",
+      "n": 2,
+      "region": "unplaced",
+      "viewable": 2
+    },
+    {
+      "decade": "1830s",
+      "n": 2,
+      "region": "unplaced",
+      "viewable": 1
+    },
+    {
+      "decade": "1840s",
+      "n": 1,
+      "region": "unplaced",
+      "viewable": 1
+    },
+    {
+      "decade": "1860s",
+      "n": 2,
+      "region": "unplaced",
+      "viewable": 2
+    },
+    {
+      "decade": "1880s",
+      "n": 66,
+      "region": "unplaced",
+      "viewable": 66
+    },
+    {
+      "decade": "1890s",
+      "n": 7,
+      "region": "unplaced",
+      "viewable": 4
+    },
+    {
+      "decade": "1900s",
+      "n": 123,
+      "region": "unplaced",
+      "viewable": 61
+    },
+    {
+      "decade": "1910s",
+      "n": 349,
+      "region": "unplaced",
+      "viewable": 33
+    },
+    {
+      "decade": "1920s",
+      "n": 234,
+      "region": "unplaced",
+      "viewable": 95
+    },
+    {
+      "decade": "1930s",
+      "n": 258,
+      "region": "unplaced",
+      "viewable": 72
+    },
+    {
+      "decade": "1940s",
+      "n": 1530,
+      "region": "unplaced",
+      "viewable": 89
+    },
+    {
+      "decade": "1950s",
+      "n": 241,
+      "region": "unplaced",
+      "viewable": 0
+    },
+    {
+      "decade": "1960s",
+      "n": 316,
+      "region": "unplaced",
+      "viewable": 2
+    },
+    {
+      "decade": "1970s",
+      "n": 83,
+      "region": "unplaced",
+      "viewable": 0
+    },
+    {
+      "decade": "1990s",
+      "n": 1,
+      "region": "unplaced",
+      "viewable": 0
+    },
+    {
+      "decade": "no-date",
+      "n": 806,
+      "region": "unplaced",
+      "viewable": 32
+    }
+  ]
+}

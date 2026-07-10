@@ -1,0 +1,130 @@
+{
+  "_note": "One opener per form of absence; the full record verbatim for beats 1-3. Each record's designated field is verifiably missing.",
+  "openers": {
+    "context": {
+      "access_status": "CC BY-NC-SA",
+      "access_tier": {
+        "ar": "نَسب - غير تجاري - الترخيص بالمثل",
+        "en": "CC BY-NC-SA"
+      },
+      "basis": {
+        "attribution_basis": "named-in-record",
+        "collector_origin": "European (German)",
+        "date_basis": "exact",
+        "geo_basis": "item",
+        "photographer_origin": "European (German)"
+      },
+      "city": "Al-Ahsa",
+      "collector_raw": "Hermann Burchardt (1857-1909)",
+      "decade": "1900s",
+      "form": "context",
+      "notes": "Positiv, SW Sammler: Burchardt, Hermann",
+      "photographer_raw": "Hermann Burchardt (1857-1909)",
+      "record_id": "berlin_smb:49537",
+      "region": "Eastern Province",
+      "source_archive": "Ethnologisches Museum, Berlin (SMB)",
+      "source_url": "https://smb.museum-digital.de/object/49537",
+      "title": "(undescribed)"
+    },
+    "maker": {
+      "access_status": "Online (image available)",
+      "access_tier": {
+        "ar": "متاح على الإنترنت (صورة متوفرة)",
+        "en": "Online (image available)"
+      },
+      "basis": {
+        "attribution_basis": "attributed-to-collector",
+        "collector_origin": "European (Dutch)",
+        "date_basis": "exact",
+        "geo_basis": "item",
+        "photographer_origin": "Unknown"
+      },
+      "city": "Mecca",
+      "collector_raw": "Snouck Hurgronje, Christiaan.",
+      "decade": "1880s",
+      "form": "maker",
+      "notes": "Portrait of a young man. With added mask of photographic paper. See also Bilder-Atlas, plate 9 with caption.",
+      "photographer_raw": "",
+      "record_id": "leiden:3188242",
+      "region": "Hejaz",
+      "source_archive": "Leiden University Libraries",
+      "source_url": "http://hdl.handle.net/1887.1/item:3188242",
+      "title": "[Torhüter der Ka'bah (aus der Schebah-Familie, die seit vorislamischer Zeit dies Amt innehat)] | Gatekeeper of the Ka'ba (from the Shayba family, who have kept this office ever since pre-Islamic times)]"
+    },
+    "place": {
+      "access_status": "Public domain / no known restrictions",
+      "access_tier": {
+        "ar": "ملكية عامة",
+        "en": "Public domain"
+      },
+      "basis": {
+        "attribution_basis": "named-in-record",
+        "collector_origin": "Unknown",
+        "date_basis": "exact",
+        "geo_basis": "unplaced",
+        "photographer_origin": "Unclassified (review)"
+      },
+      "city": "",
+      "collector_raw": "",
+      "decade": "1930s",
+      "form": "place",
+      "notes": "photographer from Artist; collector=unresolved",
+      "photographer_raw": "Nationaal Archief",
+      "record_id": "commons:20124554",
+      "region": "Unknown / unplaced",
+      "source_archive": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tentenkamp_bij_versperring_-_Encampment_near_barbed_wire.jpg",
+      "title": "Tentenkamp bij versperring - Encampment near barbed wire"
+    },
+    "time": {
+      "access_status": "CC BY-NC-SA",
+      "access_tier": {
+        "ar": "نَسب - غير تجاري - الترخيص بالمثل",
+        "en": "CC BY-NC-SA"
+      },
+      "basis": {
+        "attribution_basis": "named-in-record",
+        "collector_origin": "European (German)",
+        "date_basis": "undated",
+        "geo_basis": "item",
+        "photographer_origin": "European (German)"
+      },
+      "city": "Al-Ahsa",
+      "collector_raw": "Hermann Burchardt (1857-1909)",
+      "decade": "",
+      "form": "time",
+      "notes": "Vermutlich in Bahrein, mit Europäer aus der Firma Mönckhaus. (AN) - Herrman Burchardt, 3. von rechts und seine Begleiter. Sammler: Burchardt, Hermann",
+      "photographer_raw": "Hermann Burchardt (1857-1909)",
+      "record_id": "berlin_smb:49486",
+      "region": "Eastern Province",
+      "source_archive": "Ethnologisches Museum, Berlin (SMB)",
+      "source_url": "https://smb.museum-digital.de/object/49486",
+      "title": "Auf dem Weg von Hufuf nach Qatar"
+    },
+    "visibility": {
+      "access_status": "Catalogue metadata only (copies by order)",
+      "access_tier": {
+        "ar": "نسخ بالطلب",
+        "en": "Copies by order"
+      },
+      "basis": {
+        "attribution_basis": "named-in-record",
+        "collector_origin": "European (British)",
+        "date_basis": "exact",
+        "geo_basis": "inherited-single-place",
+        "photographer_origin": "European (British)"
+      },
+      "city": "Taif",
+      "collector_raw": "H. St John Philby",
+      "decade": "1930s",
+      "form": "visibility",
+      "notes": "series A4; Album No. 4",
+      "photographer_raw": "H. St John Philby",
+      "record_id": "meca:GB165-0229:A4/746",
+      "region": "Hejaz",
+      "source_archive": "Middle East Centre Archive (MECA), St Antony's College, Oxford",
+      "source_url": "",
+      "title": "'Araif – coffee camp – 8 January 1932"
+    }
+  }
+}
