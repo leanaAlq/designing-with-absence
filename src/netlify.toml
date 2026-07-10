@@ -1,0 +1,12 @@
+# netlify.toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Hashed JS/CSS assets are cached forever by default — good.
+# The data artifacts are NOT hashed, so make sure a re-export
+# is visible immediately, not after a stale cache expires:
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
