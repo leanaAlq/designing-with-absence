@@ -1,0 +1,22 @@
+{
+  "_note": "Draft register only — decision L4: freeze EN copy first, translate as a pass, and have the Arabic register verified. Numerals follow decision L1 (currently Western digits; see AR_LOCALE in src/i18n/index.js).",
+  "site": {
+    "title": "التصميم بالغياب",
+    "subtitle": "ما يحفظه أرشيف فوتوغرافي عن السعودية — وما لا يحفظه.",
+    "langToggle": "English"
+  },
+  "smoke": {
+    "corpus": "يضم هذا الأرشيف {site, plural, zero {لا سجلات} one {سجلًا فوتوغرافيًا واحدًا} two {سجلين فوتوغرافيين} few {# سجلات فوتوغرافية} many {# سجلًا فوتوغرافيًا} other {# سجل فوتوغرافي}} من {archives, plural, one {أرشيف واحد} two {أرشيفين} few {# أراشيف} many {# أرشيفًا} other {# أرشيف}}.",
+    "undated": "{undated, plural, zero {لا سجلات} one {سجل واحد} two {سجلان} few {# سجلات} many {# سجلًا} other {# سجل}} بلا تاريخ يمكن الاعتماد عليه — أي {undatedPct, number, ::percent .0} من المجموعة.",
+    "unplaced": "{unplaced, plural, zero {لا سجلات} one {سجل واحد لا يصل} two {سجلان لا يصلان} few {# سجلات لا تصل} many {# سجلًا لا تصل} other {# سجل لا يصل}} إلى موضع على الخريطة.",
+    "notViewable": "{notViewable, plural, zero {لا صور} one {توجد صورة واحدة لا تستطيع هذه الشاشة عرضها} two {توجد صورتان لا تستطيع هذه الشاشة عرضهما} few {توجد # صور لا تستطيع هذه الشاشة عرضها} many {توجد # صورةً لا تستطيع هذه الشاشة عرضها} other {توجد # صورة لا تستطيع هذه الشاشة عرضها}}.",
+    "loading": "جارٍ قراءة الفهرس…",
+    "dataMissing": "لم يُعثر على ملفات البيانات. شغّل export_artifacts.py وانسخ مخرجاته إلى public/data/ (انظر public/data/README.md)."
+  },
+  "footer": {
+    "version": "إصدار البيانات {version}، صُدِّر بتاريخ {date}."
+  },
+  "core": {
+    "placeholder": "نص مؤقت لهذه الخطوة — سيحل محله نص المشهد الحقيقي لاحقًا."
+  }
+}

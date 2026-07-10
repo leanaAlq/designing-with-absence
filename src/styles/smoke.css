@@ -1,0 +1,20 @@
+/* smoke.css — styles for the scaffold smoke screen only. Dies with App.jsx
+   when the scroll skeleton (B3) lands. Logical properties only. */
+.smoke {
+  max-inline-size: calc(var(--measure) + 8rem);
+  margin-inline: auto;
+  padding-block: var(--space-6);
+  padding-inline: var(--space-4);
+}
+.smoke .lede { font-size: var(--fs-lede); line-height: var(--lh-lede); color: var(--ink-soft); }
+.smoke .caption { font-size: var(--fs-caption); line-height: var(--lh-caption); color: var(--ink-faint); }
+.smoke section { margin-block-start: var(--space-5); }
+.smoke footer { margin-block-start: var(--space-6); border-block-start: 1px solid var(--paper-deep); padding-block-start: var(--space-3); }
+.lang-toggle {
+  float: inline-end;
+  background: none; border: 1px solid var(--ink-faint); border-radius: var(--radius);
+  color: var(--ink); font-family: var(--font-body); font-size: var(--fs-caption);
+  padding-block: var(--space-1); padding-inline: var(--space-3);
+  cursor: pointer;
+}
+.lang-toggle:hover { border-color: var(--accent); color: var(--accent); }

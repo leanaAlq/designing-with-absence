@@ -1,0 +1,21 @@
+{
+  "site": {
+    "title": "Designing with Absence",
+    "subtitle": "What a photographic archive of Saudi Arabia remembers — and what it doesn't.",
+    "langToggle": "العربية"
+  },
+  "smoke": {
+    "corpus": "This archive holds {site, plural, one {# photographic record} other {# photographic records}} from {archives, plural, one {# archive} other {# archives}}.",
+    "undated": "{undated, plural, one {# record carries} other {# records carry}} no usable date — {undatedPct, number, ::percent .0} of the corpus.",
+    "unplaced": "{unplaced, plural, one {# record never reaches} other {# records never reach}} a place on the map.",
+    "notViewable": "{notViewable, plural, one {# photograph exists that this screen cannot show you} other {# photographs exist that this screen cannot show you}}.",
+    "loading": "Reading the catalogue…",
+    "dataMissing": "Data artifacts not found. Run export_artifacts.py and copy its output into public/data/ (see public/data/README.md)."
+  },
+  "footer": {
+    "version": "Data version {version}, exported {date}."
+  },
+  "core": {
+    "placeholder": "Placeholder copy for this step — real scene text lands here later."
+  }
+}

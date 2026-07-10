@@ -1,0 +1,46 @@
+/* base.css — global ground. Logical properties only (B2). */
+@import "./tokens.css";
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: var(--lh-display);
+  margin-block: 0 var(--space-3);
+}
+h1 { font-size: var(--fs-display); }
+
+p { max-inline-size: var(--measure); margin-block: 0 var(--space-3); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* the two luminance states — rule 1 of tokens.css */
+.viewable      { opacity: var(--viewable-opacity); }
+.metadata-only { opacity: var(--metadata-only-opacity);
+                 filter: var(--metadata-only-filter); }
+
+/* the absence treatment — rule 3 */
+.absent { background: var(--absence-hatch); color: var(--ink-faint); }

@@ -1,0 +1,92 @@
+/**
+ * core.css — scrollytelling core layout (tracker B3). Imported by core.jsx.
+ * Logical properties only (B2); tokens only. No new colours, no shadows.
+ *
+ * Layout: the graphic is a full-bleed sticky pane; the steps scroll OVER it as
+ * an overlay (graphic and steps share one grid cell). Single column, so RTL is
+ * neutral — the text column just centres over the full-width graphic.
+ *
+ * INVARIANT: the outer .step owns ALL step sizing (min-block-size). A step's
+ * `active` state must never change .step's block-size, or it moves its own
+ * scrollama trigger line. Active styling lives on the inner .step-card, and
+ * even there the accent rail width is reserved so nothing reflows.
+ */
+
+.core {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* graphic and steps occupy the SAME cell: graphic pinned full-width behind,
+   steps scrolling over it. */
+.core .graphic,
+.core .steps {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.core .graphic {
+  position: sticky;
+  inset-block-start: 0;
+  block-size: 100svh;              /* svh, not vh — mobile URL bars */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--field);        /* default / openers: the dark ground */
+  color: var(--bone);
+}
+
+/* Per-scene grounds (openers keep the dark --field above). Distinct token
+   hues for the skeleton; mid-tones, so text flips to the dark --field. Real
+   scenes will own their own grounds later. */
+.core .graphic[data-scene="sceneA"]     { background: var(--region-eastern); color: var(--field); }
+.core .graphic[data-scene="makerScene"] { background: var(--saudi);          color: var(--field); }
+.core .graphic[data-scene="visScene"]   { background: var(--region-asir);    color: var(--field); }
+.core .graphic[data-scene="grid"]       { background: var(--region-north);   color: var(--field); }
+
+.core .steps {
+  z-index: 1;                      /* text rides above the pinned graphic */
+  pointer-events: none;           /* clicks fall through to the graphic (later scenes) */
+}
+
+.step {
+  /* the observer target; block-size is state-independent (see INVARIANT) */
+  min-block-size: 100svh;
+  padding-block: var(--space-6);
+  padding-inline: var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;        /* centre the card over the full-width graphic */
+}
+
+.step-card {
+  inline-size: 100%;
+  max-inline-size: var(--measure);
+  pointer-events: auto;           /* the card itself stays interactive */
+  background: var(--paper);
+  border: 1px solid var(--paper-deep);
+  /* reserve the accent rail up front so activating recolours, never reflows */
+  border-inline-start: 3px solid var(--paper-deep);
+  border-radius: var(--radius);
+  padding-block: var(--space-4);
+  padding-inline: var(--space-4);
+  color: var(--ink);
+  transition: border-color 200ms; /* trivial; killed under reduced-motion (base.css) */
+}
+.step-card--active {
+  border-inline-start-color: var(--accent);
+}
+
+.step-card__id {
+  font-family: var(--font-data);
+  font-size: var(--fs-caption);
+  line-height: var(--lh-caption);
+  color: var(--ink-faint);
+  margin-block: 0 var(--space-2);
+}
+
+/* placeholder scene label (dev slot text) */
+.scene-ph { text-align: center; font-family: var(--font-data); }
+.scene-ph__name { font-size: var(--fs-lede); margin-block: 0 var(--space-2); }
+.scene-ph__phase { font-size: var(--fs-caption); margin-block: 0; }
