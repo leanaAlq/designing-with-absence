@@ -86,6 +86,55 @@
   margin-block: 0 var(--space-2);
 }
 
+/* scene navigation — a fixed pill that floats over any scene ground, so it
+   carries its own paper background instead of relying on the scene's colour.
+   Logical props throughout: the list just reverses under dir="rtl". */
+.core .scene-nav {
+  position: fixed;
+  inset-block-end: var(--space-3);
+  inset-inline: 0;
+  z-index: 2;                       /* above the steps overlay (z-index 1) */
+  display: flex;
+  justify-content: center;
+  padding-inline: var(--space-3);
+  pointer-events: none;            /* only the pill itself catches clicks */
+}
+
+.scene-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-1);
+  margin: 0;
+  padding: var(--space-1);
+  list-style: none;
+  pointer-events: auto;
+  background: color-mix(in srgb, var(--paper) 90%, transparent);
+  border: 1px solid var(--paper-deep);
+  border-radius: calc(var(--radius) * 3);
+  backdrop-filter: blur(6px);
+}
+
+.scene-nav__tab {
+  border: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  font-family: var(--font-data);
+  font-size: var(--fs-caption);
+  line-height: var(--lh-caption);
+  padding-block: var(--space-1);
+  padding-inline: var(--space-3);
+  border-radius: calc(var(--radius) * 2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 200ms, background-color 200ms;  /* killed under reduced-motion */
+}
+.scene-nav__tab:hover { color: var(--ink); }
+.scene-nav__tab--active {
+  color: var(--paper);
+  background: var(--accent);
+}
+
 /* placeholder scene label (dev slot text) */
 .scene-ph { text-align: center; font-family: var(--font-data); }
 .scene-ph__name { font-size: var(--fs-lede); margin-block: 0 var(--space-2); }

@@ -12,7 +12,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useCorpus } from "../corpus/CorpusProvider.jsx";
 import { useScrollama } from "./useScrollama.js";
-import { CORE, SCENES } from "./core.registry.js";
+import { CORE, SCENES, SCENE_TABS } from "./core.registry.js";
 import "./core.css";
 
 const DEBUG = import.meta.env.DEV && new URLSearchParams(location.search).has("debug");
@@ -44,12 +44,43 @@ function CorpusStats() {
   );
 }
 
+function SceneNav({ activeScene, onSelect }) {
+  const { t } = useTranslation();
+  return (
+    <nav className="scene-nav" aria-label={t("core.nav.label")}>
+      <ul className="scene-nav__list">
+        {SCENE_TABS.map(({ scene, id }) => {
+          const isActive = scene === activeScene;
+          return (
+            <li key={scene}>
+              <button
+                type="button"
+                className={isActive ? "scene-nav__tab scene-nav__tab--active" : "scene-nav__tab"}
+                aria-current={isActive ? "step" : undefined}
+                onClick={() => onSelect(id)}
+              >
+                {t(`core.tabs.${scene}`)}
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}
+
 export default function Core() {
   const { containerRef, index, direction } = useScrollama({
     offset: 0.5,
     progress: false,
     debug: DEBUG,
   });
+
+  const scrollToStep = (id) => {
+    containerRef.current
+      ?.querySelector(`[data-step="${id}"]`)
+      ?.scrollIntoView({ block: "start" });
+  };
 
   // Dev trace for acceptance check 2 (steps fire 0→8; up → -1 above the core).
   // Guarded, so it is inert in the production build.
@@ -67,6 +98,7 @@ export default function Core() {
 
   return (
     <section className="core" ref={containerRef}>
+      <SceneNav activeScene={activeName} onSelect={scrollToStep} />
       <div className="graphic" data-scene={activeName} aria-hidden="true">
         {/* keyed by scene NAME: reconcile within a scene, remount across scenes */}
         <ActiveScene

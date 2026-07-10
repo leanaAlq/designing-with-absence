@@ -16,6 +16,16 @@
     "version": "Data version {version}, exported {date}."
   },
   "core": {
-    "placeholder": "Placeholder copy for this step — real scene text lands here later."
+    "placeholder": "Placeholder copy for this step — real scene text lands here later.",
+    "nav": {
+      "label": "Jump between scenes"
+    },
+    "tabs": {
+      "openers": "Openers",
+      "sceneA": "The Field",
+      "makerScene": "Makers",
+      "visScene": "Visibility",
+      "grid": "The Grid"
+    }
   }
 }

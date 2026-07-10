@@ -40,3 +40,9 @@ export const SCENES = {
   visScene:   PlaceholderScene,
   grid:       PlaceholderScene,
 };
+
+
+export const SCENE_TABS = CORE.reduce((tabs, { id, scene }, index) => {
+  if (!tabs.some((t) => t.scene === scene)) tabs.push({ scene, id, index });
+  return tabs;
+}, []);
